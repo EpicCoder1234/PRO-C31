@@ -4,19 +4,6 @@ const Bodies = Matter.Bodies;
 const Body = Matter.Body;
 const Constraint = Matter.Constraint;
 
-var walk1, walk2, walk3, walk4, walk5, walk6, walk7, walk8;
-
-function preload(){
-   walk1 = loadImage("images/Walking Frame/walking_1.png");
-   walk2 = loadImage("images/Walking Frame/walking_2.png");
-   walk3 = loadImage("images/Walking Frame/walking_3.png");
-   walk4 = loadImage("images/Walking Frame/walking_4.png");
-   walk5 = loadImage("images/Walking Frame/walking_5.png");
-   walk6 = loadImage("images/Walking Frame/walking_6.png");
-   walk7 = loadImage("images/Walking Frame/walking_7.png");
-   walk8 = loadImage("images/Walking Frame/walking_8.png");
-}
-
 function setup(){
    engine = Engine.create();
    world = engine.world;
